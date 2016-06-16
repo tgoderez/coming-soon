@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background: url(../images/background.png) center center fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+.grid {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+nav {
+	float: right;
+}
+
+h1 {
+	margin-top: 120px;
+	margin-bottom: 30px;
+	letter-spacing: .05em;
+}
+
+header p, .paragraph {
+	max-width: 665px;
+	margin-bottom: 20px;
+}
+
+aside h2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+aside p {
+	margin-bottom: 20px;
+}
+
+input {
+	width: 350px;
+	height: 35px;
+}
+
+form button {
+	width: 120px;
+	height: 35px;
+	margin-left: -4px;
+	margin-bottom: 20px;
+	background-color: #f63c3c;
+	border: none;
+}
+
+li i {
+	display: inline-block;
+}
+
+li h3 {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	
+}
+
+li article {
+	margin-left: 35px;
+	max-width: 260px;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+nav li {
+	float: left;
+	margin-left: 10px;
+}
+
+/* ========== Typography ============ */
+
+h1, h2, button, h3, time {
+	font-family: 'Teko', sans-serif;
+}
+
+header p, .paragraph, aside p, .tweet, footer p, li a {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1, header p, h3, time, .paragraph, .tweet, footer p, li a {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 120px;
+	text-transform: uppercase;
+}
+
+header p {
+	font-size: 26px;
+}
+
+.paragraph {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+aside p {
+	font-size: 18px;
+}
+
+button, h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.tweet {
+	font-size: 14px;
+}
+
+time {
+	font-size: 16px;
+	color: #959595;
+	text-transform: uppercase;
+}
+
+footer {
+	font-size: 13px;
+}
+
+footer p{
+	color: #959595;
+}
+
+footer p a {
+	text-decoration: none;
+	color: #fff;
+}
+
+li a {
+	text-decoration: none;
+	color: #959595;
+}
+
+
+
+
+
+
+
